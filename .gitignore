@@ -1,0 +1,5 @@
+stack.yaml.lock
+*.iml
+.stack-work
+out
+.temporary
