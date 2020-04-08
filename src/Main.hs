@@ -4,6 +4,8 @@ module Main where
 import qualified Basic.Values
 import qualified Basic.Lists
 import qualified Basic.Functions
+-- 02-types
+import qualified Type.Types
 
 main :: IO () -- val main: IO[Unit] | https://wiki.haskell.org/IO_inside
 
@@ -14,4 +16,7 @@ main = do
   putStrLn "Lists:"        >> Basic.Lists.main
   putStrLn ""
   putStrLn "Functions:"    >> Basic.Functions.main
+  putStrLn ""
+  -- 02-types
+  putStrLn "Types:"        >> Type.Types.main
   return ()
