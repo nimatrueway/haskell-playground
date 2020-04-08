@@ -6,6 +6,7 @@ import qualified Basic.Lists
 import qualified Basic.Functions
 -- 02-types
 import qualified Type.Types
+import qualified Type.TypeClasses
 
 main :: IO () -- val main: IO[Unit] | https://wiki.haskell.org/IO_inside
 
@@ -19,4 +20,7 @@ main = do
   putStrLn ""
   -- 02-types
   putStrLn "Types:"        >> Type.Types.main
+  putStrLn ""
+  putStrLn "Type-Classes:" >> Type.TypeClasses.main
+  putStrLn ""
   return ()
