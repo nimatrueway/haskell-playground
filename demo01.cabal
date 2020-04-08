@@ -9,5 +9,5 @@ executable demo01
   main-is:             Main.hs
   default-language:    Haskell2010
   other-modules:       Basic.Values, Basic.Lists, Basic.Functions,
-                       Type.Types, Type.TypeClasses, Type.Monads
-  build-depends:       base >= 4.7 && < 5
+                       Type.Types, Type.TypeClasses, Type.Monads, Type.StateMonads
+  build-depends:       base >= 4.7 && < 5, mtl, text
