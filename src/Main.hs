@@ -7,6 +7,7 @@ import qualified Basic.Functions
 -- 02-types
 import qualified Type.Types
 import qualified Type.TypeClasses
+import qualified Type.Monads
 
 main :: IO () -- val main: IO[Unit] | https://wiki.haskell.org/IO_inside
 
@@ -23,4 +24,5 @@ main = do
   putStrLn ""
   putStrLn "Type-Classes:" >> Type.TypeClasses.main
   putStrLn ""
+  putStrLn "Monads:"       >> Type.Monads.main
   return ()
