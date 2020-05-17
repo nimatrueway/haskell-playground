@@ -7,13 +7,11 @@ Install stack: `curl -sSL https://get.haskellstack.org/ | sh` ([ref](https://doc
 
 Import it in IntelliJ
 ---------------------------------------------------------------
-1. Download and install the latest beta version of plugin [IntelliJ-Haskell](https://github.com/rikvdkleij/intellij-haskell/releases)
+1. Download and install the latest beta version of plugin **IntelliJ-Haskell**.
+   You can do so by adding https://plugins.jetbrains.com/plugins/alpha/8258 to you IntelliJ's customer plugin repository list.
 2. Menu "File" -> "New" -> "Import Project from Existing Source".
 3. First time you run it takes a long time to fetch all dependencies.
-4. If the documentations doesn't show up run this command manually; it's the same command as the plugin runs without
-    `--local=blahblahblah` parameter:
-   `~/.cache/intellij-haskell/lts-15/bin/hoogle generate --database=~/.cache/intellij-haskell/haskell-introduction-01/hoogle --haskell`
-5. If plugin doesn't work properly enable "Haskell Log" in your "Event Log" window.
+4. If plugin doesn't work properly enable "Haskell Log" in your "Event Log" window.
 
 In case you need to create a fresh project
 ---------------------------------------------------------------
